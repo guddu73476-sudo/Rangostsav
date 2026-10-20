@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100b20">
+  <meta name="description" content="Celebrate Dussehra with Rangotsav Mela — a magical night of culture, food, music and tradition.">
+  <title>Rangotsav | Dussehra Mela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">✺</span>
+      RANG<span>OTSAV</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#food">Food Zone</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit" class="nav-cta">Plan Your Visit ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="live-dot"></span>
+          A FESTIVAL OF LIGHT, CULTURE & JOY
+        </div>
+
+        <h1>
+          Celebrate the<br>
+          <span class="gradient-text">Victory of Good</span>
+        </h1>
+
+        <p class="hero-description">
+          One magical night. A thousand beautiful memories.
+          Experience the colours, traditions, music and flavours
+          of India's most loved celebration.
+        </p>
+
+        <div class="hero-details">
+          <div>
+            <span class="detail-icon">✦</span>
+            <span>Festival of Dussehra</span>
+          </div>
+          <div>
+            <span class="detail-icon">◷</span>
+            <span>Evening till Night</span>
+          </div>
+          <div>
+            <span class="detail-icon">⌖</span>
+            <span>India</span>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#events" class="btn btn-primary">Explore the Mela ↗</a>
+          <a href="#about" class="btn btn-outline">Discover the Magic</a>
+        </div>
+
+        <div class="countdown-card">
+          <p class="countdown-heading">COUNTDOWN TO DUSSEHRA</p>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">00</strong><span>Days</span></div>
+            <b>:</b>
+            <div><strong id="hours">00</strong><span>Hours</span></div>
+            <b>:</b>
+            <div><strong id="minutes">00</strong><span>Minutes</span></div>
+            <b>:</b>
+            <div><strong id="seconds">00</strong><span>Seconds</span></div>
+          </div>
+          <p class="countdown-note" id="countdownNote">
+            The celebration is calling ✨
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1604608672516-8d9b7f4f3c1b?auto=format&fit=crop&w=1000&q=85"
+            alt="Warm golden lights at a festive Indian celebration"
+            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1000&q=85';"
+          >
+          <div class="image-shade"></div>
+          <div class="image-caption">
+            <span>✦</span>
+            <div>
+              <strong>Where traditions glow</strong>
+              <p>Feel the magic of the mela</p>
+            </div>
+          </div>
+        </div>
+        <div class="floating-badge badge-top">✺ &nbsp; SHUBH DUSSEHRA</div>
+        <div class="floating-badge badge-bottom">✦ &nbsp; CULTURE • JOY • UNITY</div>
+        <span class="decor decor-one">✧</span>
+        <span class="decor decor-two">✦</span>
+        <span class="decor decor-three">✺</span>
+      </div>
+
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>✦ LIVE MUSIC</span><span>✺ TRADITIONAL CULTURE</span>
+        <span>✦ FOOD & FLAVOURS</span><span>✺ FESTIVE LIGHTS</span>
+        <span>✦ FAMILY FUN</span><span>✺ THE SPIRIT OF DUSSEHRA</span>
+        <span>✦ LIVE MUSIC</span><span>✺ TRADITIONAL CULTURE</span>
+        <span>✦ FOOD & FLAVOURS</span><span>✺ FESTIVE LIGHTS</span>
+        <span>✦ FAMILY FUN</span><span>✺ THE SPIRIT OF DUSSEHRA</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">THE SPIRIT OF THE FESTIVAL</span>
+        <h2>More Than A Mela.<br><span class="gradient-text">A Feeling.</span></h2>
+        <p>
+          Celebrate the timeless story of good triumphing over evil.
+          From vibrant traditions to unforgettable experiences,
+          every corner of Rangotsav brings people together.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card about-card-large">
+          <img
+            src="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=1000&q=85"
+            alt="Indian festive architecture and cultural atmosphere"
+            loading="lazy">
+          <div class="about-card-overlay">
+            <span class="card-number">01 / TRADITION</span>
+            <h3>Rooted in Culture</h3>
+            <p>Honour the stories, values and traditions passed through generations.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <img
+            src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=85"
+            alt="A lively music and entertainment atmosphere"
+            loading="lazy">
+          <div class="about-card-overlay">
+            <span class="card-number">02 / CELEBRATION</span>
+            <h3>Feel the Energy</h3>
+            <p>Music, dance and moments worth remembering.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <img
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=85"
+            alt="Delicious food ready to be enjoyed"
+            loading="lazy">
+          <div class="about-card-overlay">
+            <span class="card-number">03 / FLAVOURS</span>
+            <h3>Taste the Joy</h3>
+            <p>Discover delicious bites and festive favourites.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="section events-section" id="events">
+      <div class="section-heading heading-row">
+        <div>
+          <span class="eyebrow">YOUR NIGHT, YOUR WAY</span>
+          <h2>Explore the <span class="gradient-text">Experiences</span></h2>
+        </div>
+        <p>Find your favourite corner of the celebration.</p>
+      </div>
+
+      <div class="filter-buttons" id="eventFilters">
+        <button class="filter-btn active" data-filter="all">All Experiences</button>
+        <button class="filter-btn" data-filter="culture">Culture</button>
+        <button class="filter-btn" data-filter="fun">Fun & Games</button>
+        <button class="filter-btn" data-filter="shopping">Shopping</button>
+      </div>
+
+      <div class="event-grid" id="eventGrid">
+        <article class="event-card" data-category="culture">
+          <div class="event-image">
+            <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=85" alt="Live performance stage" loading="lazy">
+            <span class="event-tag">CULTURE</span>
+          </div>
+          <div class="event-body">
+            <span class="event-time">✦ LIVE PERFORMANCE</span>
+            <h3>Music & Dance</h3>
+            <p>Enjoy an evening filled with lively performances and festive rhythms.</p>
+            <a href="#visit" class="text-link">Plan your visit ↗</a>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="culture">
+          <div class="event-image">
+            <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=85" alt="Colourful Indian art" loading="lazy">
+            <span class="event-tag">CULTURE</span>
+          </div>
+          <div class="event-body">
+            <span class="event-time">✦ ART & HERITAGE</span>
+            <h3>Culture Corner</h3>
+            <p>Discover colourful art, traditional crafts and India's rich heritage.</p>
+            <a href="#gallery" class="text-link">Explore gallery ↗</a>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="fun">
+          <div class="event-image">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=85" alt="A colourful event with bright lights" loading="lazy">
+            <span class="event-tag">FUN & GAMES</span>
+          </div>
+          <div class="event-body">
+            <span class="event-time">✦ FAMILY FUN</span>
+            <h3>Funfair Zone</h3>
+            <p>Make happy memories with games, activities and fun for all ages.</p>
+            <a href="#visit" class="text-link">Plan your visit ↗</a>
+          </div>
+        </article>
+
+        <article class="event-card" data-category="shopping">
+          <div class="event-image">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=85" alt="Warm colours and artisan-inspired scenery" loading="lazy">
+            <span class="event-tag">SHOPPING</span>
+          </div>
+          <div class="event-body">
+            <span class="event-time">✦ LOCAL TREASURES</span>
+            <h3>Artisan Bazaar</h3>
+            <p>Browse handmade creations, festive decorations and unique keepsakes.</p>
+            <a href="#visit" class="text-link">Plan your visit ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">Illustrative activities — check local event announcements for the actual programme.</p>
+    </section>
+
+    <!-- FOOD ZONE -->
+    <section class="section food-section" id="food">
+      <div class="food-visual">
+        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1000&q=85" alt="Delicious Indian snacks" loading="lazy">
+        <div class="food-sticker">MADE WITH<br><strong>LOVE ♥</strong></div>
+      </div>
+
+      <div class="food-content">
+        <span class="eyebrow">A FEAST FOR YOUR SENSES</span>
+        <h2>Come Hungry.<br><span class="gradient-text">Leave Happy.</span></h2>
+        <p>
+          Follow the aroma of freshly made street food, discover
+          sweet treats and share your favourite flavours with friends
+          and family.
+        </p>
+
+        <div class="food-list">
+          <div><span class="food-emoji">🥟</span><div><strong>Street Food</strong><p>Spicy, savoury and full of flavour</p></div></div>
+          <div><span class="food-emoji">🍬</span><div><strong>Indian Sweets</strong><p>Traditional treats for the festive mood</p></div></div>
+          <div><span class="food-emoji">🥤</span><div><strong>Cool Refreshments</strong><p>Take a break and refresh yourself</p></div></div>
+        </div>
+
+        <a href="#visit" class="btn btn-primary">Explore the Mela ↗</a>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <span class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</span>
+        <h2>Glimpses of <span class="gradient-text">Celebration</span></h2>
+        <p>A little inspiration for the magic that awaits.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall" data-image="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=1400&q=90" aria-label="View festive architecture image">
+          <img src="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=800&q=85" alt="Festive cultural architecture" loading="lazy">
+          <span>Tradition <b>↗</b></span>
+        </button>
+        <button class="gallery-item" data-image="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=90" aria-label="View music event image">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=85" alt="Music and celebration" loading="lazy">
+          <span>Music <b>↗</b></span>
+        </button>
+        <button class="gallery-item" data-image="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=90" aria-label="View food image">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=85" alt="Food and flavours" loading="lazy">
+          <span>Flavours <b>↗</b></span>
+        </button>
+        <button class="gallery-item" data-image="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=90" aria-label="View festival crowd image">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=85" alt="A lively gathering" loading="lazy">
+          <span>Togetherness <b>↗</b></span>
+        </button>
+        <button class="gallery-item gallery-wide" data-image="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=1400&q=90" aria-label="View performance image">
+          <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=85" alt="Performers on stage" loading="lazy">
+          <span>Performances <b>↗</b></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="section visit-section" id="visit">
+      <div class="visit-panel">
+        <div class="visit-content">
+          <span class="eyebrow">YOUR FESTIVE ADVENTURE STARTS HERE</span>
+          <h2>Make This Dussehra <span class="gradient-text">Unforgettable.</span></h2>
+          <p>Gather your favourite people and get ready for a celebration full of colour, culture and joy.</p>
+          <div class="visit-info">
+            <div><span>📍</span><div><strong>Venue</strong><p>Add your mela location here</p></div></div>
+            <div><span>🗓️</span><div><strong>Festival Date</strong><p id="visitDate">Update with your event date</p></div></div>
+            <div><span>🕕</span><div><strong>Opening Hours</strong><p>Add your opening and closing times</p></div></div>
+          </div>
+        </div>
+
+        <form class="visit-form" id="visitForm">
+          <h3>Plan Your Visit ✦</h3>
+          <p>Make a simple personal visit plan.</p>
+
+          <label for="visitorName">Your Name</label>
+          <input id="visitorName" name="name" type="text" placeholder="Enter your name" required maxlength="60">
+
+          <label for="visitorEmail">Email Address</label>
+          <input id="visitorEmail" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="visitorDate">Preferred Visit Date</label>
+          <input id="visitorDate" name="date" type="date" required>
+
+          <label for="visitorGroup">Who is joining you?</label>
+          <select id="visitorGroup" name="group" required>
+            <option value="">Choose your group</option>
+            <option>Family</option>
+            <option>Friends</option>
+            <option>Solo visit</option>
+            <option>College group</option>
+          </select>
+
+          <button class="btn btn-primary form-submit" type="submit">Create My Visit Plan ↗</button>
+          <p class="form-message" id="formMessage" role="status"></p>
+          <small>Demo form only. It does not send or store your details.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo"><span class="logo-icon">✺</span> RANG<span>OTSAV</span></a>
+    <p>Celebrating the light within us all.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#events">Experiences</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Rangotsav Mela</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- GALLERY LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">✕</button>
+    <img id="lightboxImage" src="" alt="Expanded festival gallery image">
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
